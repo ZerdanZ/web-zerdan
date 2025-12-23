@@ -1,0 +1,94 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background-color: #444444;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: orange;
+        }
+
+        .navbar a.active {
+            color: orange;
+            border-bottom: 2px solid orange;
+        }
+
+        /* CARD */
+        .card {
+            background-color: rgb(255, 255, 255);
+            width: 350px;
+            padding: 20px;
+            margin: 40px auto;
+            border-radius: 15px;
+            text-align: center;
+            transition: 0.3ms;
+            box-shadow: 5px 10px;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: white;
+            background-color: #ff0000;
+            padding: 8px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+          }
+
+        .card a:hover {
+            background-color: #cc0000;
+            transform: scale(1.03);
+        }
+
+        body.light .card {
+        background-color: #000000;
+        color: #ffffff;
+        box-shadow: 5px 10px grey ;
+        }
+
+        body.dark .card {
+        background-color: #ffffff;
+        color: #000000;
+        box-shadow: 5px 10px orange;
+        }
+
+
+        img {
+            width: 250px;
+            border-radius: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        /* LIGHT MODE */
+        body.light {
+            background-color: #f0f0f0;
+            color: #000;
+        }
+
+        /* DARK MODE */
+        body.dark {
+            background-color: #000;
+            color: white;
+        }
